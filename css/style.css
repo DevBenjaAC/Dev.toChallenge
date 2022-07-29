@@ -39,4 +39,19 @@
   height: 35px;
   width: 35px;
   border-radius: 50%;
+}
+
+@media (min-width: 320px) {
+  .navbar__ctn--search {
+    display: none;
+  }
+  .navbar .navbar__ctn--logo {
+    text-align: start;
+  }
+  .btntest {
+    border: 1px solid;
+  }
+  #testctn {
+    justify-content: flex-start;
+  }
 }/*# sourceMappingURL=style.css.map */
