@@ -1,4 +1,42 @@
 * {
   box-sizing: border-box;
   margin: 0;
+}
+
+.navbar {
+  height: 50px;
+  background-color: white;
+}
+
+.navbar__ctn--img {
+  width: 50px;
+  height: 40px;
+}
+
+.navbar__ctn--search input {
+  width: 50%;
+}
+
+.navbar__ctn--btn {
+  text-align: end;
+}
+.navbar__ctn--btn button {
+  border-color: rgb(64, 76, 220);
+  color: rgb(64, 76, 220);
+}
+.navbar__ctn--btn button:hover {
+  background-color: rgb(64, 76, 220);
+  color: white;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+.navbar__ctn--bell {
+  text-align: center;
+}
+
+.navbar__ctn--user img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
