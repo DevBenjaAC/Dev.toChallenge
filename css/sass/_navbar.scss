@@ -1,0 +1,46 @@
+.navbar{
+    background-color: white;
+    padding-left: 10%;
+    .navbar__ctm--movil{
+        display: none;
+    }
+
+    .navbar__ctn--img{
+        img{
+            height: 40px;
+            height: 40px;
+        }
+    }
+
+    .navbar__ctn--input{
+        width: 40%;
+        input{
+            width: 40%;
+        }
+    }
+}
+
+.navbar__ctn--listCTN{
+    margin-right: 10%;
+}
+
+.ctn--listCTN-button{
+    text-align: center;
+    font-size: 10px;
+    button{
+        border-color: rgba(59, 73, 223, 1);
+        color: rgba(59, 73, 223, 1);
+        &:hover{
+            background-color: rgba(59, 73, 223, 1);
+            color: white;
+        }
+    }
+}
+
+.ctn--listCTN-bell{
+    text-align: left;
+}
+
+.ctn--listCTN-profile{
+    text-align: left;
+}
