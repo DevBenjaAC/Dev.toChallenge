@@ -4,6 +4,7 @@
 
 .aside__left {
     padding: 0;
+    border: solid;
 }
 
 .left--top {
@@ -47,14 +48,68 @@
 }
 
 .container-logs{
-    margin-left: 5%;
+    padding-left: 8%;
+    margin-top: 15%;
 }
 
 .container-tags{
+    margin-top: 10%;
     p{
         text-align: left;
     }
     img{
         text-align: right;
+    }
+}
+
+.container-left-card{
+
+    .container-left-card1{
+        margin-top: 25%;
+        width: 15rem;
+        height: 16rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        h5{
+            margin-top: 1%;
+            font-weight: bolder;
+            font-size: 16px;
+            font-family: 'Oswald', sans-serif;
+        }
+        P{
+            margin-top: 8%;
+            font-size: 25PX;
+            font-weight: bold;
+        }
+        a{
+            margin-top: 8%;
+            font-size: 20px;
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+
+    .container-left-card2{
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        img{
+            padding: 5%;
+        }
+
+        h5{
+            font-weight: bolder;
+            font-size: 25px;
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: blue;
+        }
+
     }
 }
