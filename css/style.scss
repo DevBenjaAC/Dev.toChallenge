@@ -79,15 +79,17 @@
 
 .conteiner__four {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
   border: 1px solid yellow;
-  margin-left: 25px;
-  padding-top: 10px;
+ padding-right: 150px;
 }
 
-.buttom_1{
-  text-align: right;
+.save{
+  height: 30px;
+  ;
 }
 
-.buttom_2{
-  text-align: right;
-}
+
+
