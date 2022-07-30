@@ -54,7 +54,7 @@
 }
 
 .container__crayons-tag {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .container__imgtext {
@@ -68,12 +68,12 @@
 }
 
 .icons {
-  border: 1px solid;
+  padding-top: 10px;
 }
 
 .btn {
-  border: 1px solid;
   text-align: right;
+  font-size: 10px;
 }
 
 .reactions {
