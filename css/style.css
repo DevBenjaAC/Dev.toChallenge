@@ -41,6 +41,7 @@
   text-align: left;
 }
 
+<<<<<<< HEAD
 .main {
   background-color: rgb(245, 245, 245);
 }
@@ -94,3 +95,11 @@
 .container-tags img {
   text-align: right;
 }/*# sourceMappingURL=style.css.map */
+=======
+.navbar__ctn--user img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
+
+>>>>>>> a343f27b70d03365b3e95feeb41a14140b97231c
