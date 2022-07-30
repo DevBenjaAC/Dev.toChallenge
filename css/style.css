@@ -1,6 +1,6 @@
 .navbar {
   background-color: white;
-  padding-left: 10%;
+  padding-left: 16%;
 }
 .navbar .navbar__ctm--movil {
   display: none;
@@ -43,4 +43,102 @@
 
 .main {
   background-color: rgb(245, 245, 245);
+}
+
+.aside__left {
+  padding: 0;
+  border: solid;
+}
+
+.left--top {
+  text-align: left;
+  padding: 0;
+}
+.left--top ul {
+  list-style: none;
+}
+.left--top ul li {
+  margin: 6%;
+}
+
+.left--mid {
+  margin-top: 10%;
+}
+.left--mid p {
+  margin-left: 15%;
+  font-weight: bold;
+}
+.left--mid ul {
+  list-style: none;
+}
+.left--mid ul li {
+  margin: 4%;
+}
+
+.left--img {
+  width: 20px;
+  height: 20px;
+}
+
+.left--menu {
+  text-decoration: none;
+  color: black;
+}
+
+.container-logs {
+  padding-left: 8%;
+  margin-top: 15%;
+}
+
+.container-tags {
+  margin-top: 10%;
+}
+.container-tags p {
+  text-align: left;
+}
+.container-tags img {
+  text-align: right;
+}
+
+.container-left-card .container-left-card1 {
+  margin-top: 25%;
+  width: 15rem;
+  height: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-left-card .container-left-card1 h5 {
+  margin-top: 1%;
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+}
+.container-left-card .container-left-card1 P {
+  margin-top: 8%;
+  font-size: 25PX;
+  font-weight: bold;
+}
+.container-left-card .container-left-card1 a {
+  margin-top: 8%;
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container-left-card .container-left-card2 {
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-left-card .container-left-card2 img {
+  padding: 5%;
+}
+.container-left-card .container-left-card2 h5 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+.container-left-card .container-left-card2 a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
