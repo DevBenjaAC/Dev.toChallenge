@@ -41,9 +41,6 @@
   text-align: left;
 }
 
-.navbar__ctn--user img {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
+.main {
+  background-color: rgb(245, 245, 245);
 }/*# sourceMappingURL=style.css.map */
-
