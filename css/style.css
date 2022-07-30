@@ -41,6 +41,9 @@
   text-align: left;
 }
 
-.main {
-  background-color: rgb(245, 245, 245);
+.navbar__ctn--user img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
+
