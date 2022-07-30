@@ -53,7 +53,7 @@
   padding-top: 10px;
 }
 
-.crayons-tag {
+.container__crayons-tag {
   padding-left: 30px;
 }
 
@@ -63,32 +63,34 @@
 .container__imgtext--name {
   height: 2px;
   padding-left: 5px;
+  font-weight: bold;
 }
 
-.card-text {
-  border: 1px solid green;
-}
-.d-flex {
-  margin-left: 25px;
-  padding-top: 10px;
+.icons{
+  border: 1px solid ;
 }
 
-.btn {
-  padding-bottom: 5px;
+.btn{
+  border: 1px solid;
+  text-align: right;
+}
+.reactions{
+
+  display: inline;
+  font-size:  10px;
+  img{
+    display:inline; 
+  }
+  p{display: inline;}
 }
 
-.conteiner__four {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: left;
-  border: 1px solid yellow;
- padding-right: 150px;
-}
-
-.save{
-  height: 30px;
-  ;
+.comments{
+  display: inline;
+  font-size:  10px;
+  img{
+    display:inline; 
+  }
+  p{display: inline;}
 }
 
 
