@@ -1,6 +1,6 @@
 .navbar {
   background-color: white;
-  padding-left: 10%;
+  padding-left: 16%;
 }
 .navbar .navbar__ctm--movil {
   display: none;
@@ -43,4 +43,60 @@
 
 .main {
   background-color: rgb(245, 245, 245);
+}
+
+.aside__left {
+  padding: 0;
+}
+
+.left--top {
+  text-align: left;
+  padding: 0;
+}
+.left--top ul {
+  list-style: none;
+}
+.left--top ul li {
+  margin: 6%;
+}
+
+.left--mid {
+  margin-top: 10%;
+}
+.left--mid p {
+  margin-left: 15%;
+  font-weight: bold;
+}
+.left--mid ul {
+  list-style: none;
+}
+.left--mid ul li {
+  margin: 4%;
+}
+
+.left--img {
+  width: 20px;
+  height: 20px;
+}
+
+.left--menu {
+  text-decoration: none;
+  color: black;
+}
+
+.container-logs {
+  margin-left: 5%;
+}
+
+.container-tags p {
+  text-align: left;
+}
+.container-tags img {
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
+
+.navbar__ctn--user img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
