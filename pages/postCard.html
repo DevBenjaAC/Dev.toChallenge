@@ -13,6 +13,55 @@
 </head>
 
 <body>
+  <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+
+            <div class="navbar__ctm--movil">
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <span class="navbar-toggler-icon"></span>
+                </a>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+                    images,
+                    lists, etc.
+                </div>
+            </div>
+
+            <a class="navbar-brand navbar__ctn--img" href="#"><img src="./assets/svg/svg-export/Dev.png" alt=""></a>
+
+            <div class="container collapse navbar-collapse navbar__ctn--input">
+                <input name="usr" id="usr" type="text" class="form-control" placeholder="Matrícula">
+                <img id="userLogo" src="./assets/svg/svg-export/search.svg" align="right">
+            </div>
+
+            <div class="collapse navbar-collapse navbar__ctn--listCTN " id="navbarNav">
+                <div class="container">
+                    <section class="row">
+                        <article class="col-5 ctn--listCTN-button">
+                            <button type="button" class="btn btn-outline">Create post</button>
+                        </article>
+                        <article class="col-2 ctn--listCTN-bell">
+                            <a href="#"><img src="./assets/svg/svg-export/bell.svg" alt=""></a>
+                        </article>
+                        <article class="col-5 ctn--listCTN-profile">
+                            <a href="#"><img src="./assets/svg/svg-export/planta.svg" alt=""></a>
+                        </article>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
     <!-- Start of postCard-->
     <main class="container">
         <article class="row">
@@ -379,9 +428,6 @@
         </article>
     </main>
 
-
-
-
     <!-- Start of Footer-->
     <footer class="container-fluid">
         <div class="row">
@@ -399,13 +445,11 @@
                 </span>
             </article>        
         </div>
-        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-</body>
-</body>
 
+</body>
 </html>
