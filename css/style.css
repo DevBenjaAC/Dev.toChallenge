@@ -1,42 +1,46 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 .navbar {
-  height: 50px;
   background-color: white;
+  padding-left: 10%;
 }
-
-.navbar__ctn--img {
-  width: 50px;
+.navbar .navbar__ctm--movil {
+  display: none;
+}
+.navbar .navbar__ctn--img img {
+  height: 40px;
   height: 40px;
 }
-
-.navbar__ctn--search input {
-  width: 50%;
+.navbar .navbar__ctn--input {
+  width: 40%;
+}
+.navbar .navbar__ctn--input input {
+  width: 40%;
 }
 
-.navbar__ctn--btn {
-  text-align: end;
-}
-.navbar__ctn--btn button {
-  border-color: rgb(64, 76, 220);
-  color: rgb(64, 76, 220);
-}
-.navbar__ctn--btn button:hover {
-  background-color: rgb(64, 76, 220);
-  color: white;
-  -webkit-text-decoration: underline white;
-          text-decoration: underline white;
+.navbar__ctn--listCTN {
+  margin-right: 10%;
 }
 
-.navbar__ctn--bell {
+.ctn--listCTN-button {
   text-align: center;
+  font-size: 10px;
+}
+.ctn--listCTN-button button {
+  border-color: rgb(59, 73, 223);
+  color: rgb(59, 73, 223);
+}
+.ctn--listCTN-button button:hover {
+  background-color: rgb(59, 73, 223);
+  color: white;
 }
 
-.navbar__ctn--user img {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
+.ctn--listCTN-bell {
+  text-align: left;
+}
+
+.ctn--listCTN-profile {
+  text-align: left;
+}
+
+.main {
+  background-color: rgb(245, 245, 245);
 }/*# sourceMappingURL=style.css.map */
