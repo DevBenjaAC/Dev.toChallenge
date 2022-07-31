@@ -1,8 +1,18 @@
 .aside{
-  border: solid;
-  width: 500px;
+  width:300px;
+  font-size: 18px;
 }
 .aside__div--img{
   width: auto;
   height: auto;
+}
+.aside__div--title{
+  text-align: start;
+  font-size: 25px;
+}
+.aside__content{
+  width: auto;
+}
+.aside__section{
+  width: auto;
 }
