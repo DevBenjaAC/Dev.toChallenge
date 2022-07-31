@@ -23,8 +23,12 @@
 .ctn--listCTN-button {
   text-align: center;
   font-size: 7px;
+  border: solid;
 }
 .ctn--listCTN-button button {
+  min-width: 100px;
+  max-height: 38px;
+  font-size: 12px;
   border-color: rgb(59, 73, 223);
   color: rgb(59, 73, 223);
 }
@@ -45,6 +49,42 @@
   display: none;
 }
 
+.navbar__mobile--search {
+  display: none;
+}
+
+.navbar__mobile--bell {
+  display: none;
+}
+
+.navbar__mobile--planta {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar__mobile--search {
+    margin-left: 40%;
+    display: inline;
+  }
+  .navbar__mobile--search img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--bell {
+    display: inline;
+  }
+  .navbar__mobile--bell img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--planta {
+    display: inline;
+  }
+  .navbar__mobile--planta img {
+    height: 20px;
+    width: 20px;
+  }
+}
 @media (max-width: 480px) {
   .navbar {
     text-align: left;
@@ -56,12 +96,15 @@
     display: contents;
     border: solid black;
   }
-  .navbar__ctn--img img {
-    height: 40px;
-    height: 40px;
+  .desplegable-card {
+    max-width: 250px;
   }
-  .mobile-menu {
-    display: contents;
+  .btn__mobil {
+    margin-left: -20%;
+  }
+  .navbar__ctn--img img {
+    height: 30px;
+    height: 30px;
   }
   .nav__left--top {
     text-align: left;
@@ -73,13 +116,51 @@
   .nav__left--top ul li {
     margin: 6%;
   }
-  .left--li {
-    height: 30px;
-    width: 250px;
+  .navbar__mobile--search {
+    margin-left: 40%;
+    display: inline;
   }
-  .left--li:hover {
-    background-color: rgba(59, 73, 223, 0.397);
-    border-radius: 5px;
+  .navbar__mobile--search img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--bell {
+    display: inline;
+  }
+  .navbar__mobile--bell img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--planta {
+    display: inline;
+  }
+  .navbar__mobile--planta img {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar__mobile--search {
+    margin-left: 25%;
+    display: inline;
+  }
+  .navbar__mobile--search img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--bell {
+    display: inline;
+  }
+  .navbar__mobile--bell img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--planta {
+    display: inline;
+  }
+  .navbar__mobile--planta img {
+    height: 20px;
+    width: 20px;
   }
 }
 .main {
@@ -88,6 +169,8 @@
 
 .aside__left {
   padding: 0;
+  max-width: 35%;
+  border: solid;
 }
 
 .left--top {
