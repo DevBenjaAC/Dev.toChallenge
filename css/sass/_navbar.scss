@@ -1,3 +1,5 @@
+/* navbar */
+
 .navbar{
     background-color: white;
     padding-left: 16%;
@@ -28,7 +30,6 @@
 .ctn--listCTN-button{
     text-align: center;
     font-size: 7px;
-    border: solid;
 
     button{
         min-width: 100px;
@@ -101,7 +102,6 @@
         }
         .navbar__ctm--movil{
             display: contents;
-            border: solid black;
         }
     }
 
@@ -136,11 +136,13 @@
     .navbar__mobile--search{
         margin-left: 40%;
         display: inline;
+
         img{
             height: 20px;
             width: 20px;
         }
     }
+
     .navbar__mobile--bell{
         display: inline;
         img{
@@ -148,6 +150,7 @@
             width: 20px;
         }
     }
+
     .navbar__mobile--planta{
         display: inline;
         img{
@@ -155,7 +158,6 @@
             width: 20px;
         }
     }
-
 }
 
 @media (max-width: 320px) {
@@ -163,26 +165,14 @@
         margin-left: 25%;
         display: inline;
 
-        img{
-            height: 20px;
-            width: 20px;
-        }
     }
     .navbar__mobile--bell{
         display: inline;
-
-        img{
-            height: 20px;
-            width: 20px;
-        }
     }
+
     .navbar__mobile--planta{
         display: inline;
-
-        img{
-            height: 20px;
-            width: 20px;
-        }
     }
 
 }
+/* navbar */
