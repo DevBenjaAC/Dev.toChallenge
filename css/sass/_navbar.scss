@@ -1,6 +1,7 @@
 .navbar{
     background-color: white;
     padding-left: 16%;
+
     .navbar__ctm--movil{
         display: none;
     }
@@ -13,7 +14,7 @@
     }
 
     .navbar__ctn--input{
-        width: 40%;
+        width: 600px;
         input{
             width: 40%;
         }
@@ -26,8 +27,13 @@
 
 .ctn--listCTN-button{
     text-align: center;
-    font-size: 10px;
+    font-size: 7px;
+    border: solid;
+
     button{
+        min-width: 100px;
+        max-height: 38px;
+        font-size: 12px;
         border-color: rgba(59, 73, 223, 1);
         color: rgba(59, 73, 223, 1);
         &:hover{
@@ -43,4 +49,140 @@
 
 .ctn--listCTN-profile{
     text-align: left;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.navbar__mobile--search{
+    display: none;
+}
+.navbar__mobile--bell{
+    display: none;
+}
+.navbar__mobile--planta{
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+
+    .navbar__mobile--search{
+        margin-left: 40%;
+        display: inline;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .navbar__mobile--bell{
+        display: inline;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .navbar__mobile--planta{
+        display: inline;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+}
+
+@media (max-width: 480px) {
+    .navbar{
+        text-align: left;
+        .ctn-fluid{
+            justify-content:flex-start;
+        }
+        .navbar__ctm--movil{
+            display: contents;
+            border: solid black;
+        }
+    }
+
+    .desplegable-card{
+        max-width: 250px;
+    }
+
+    .btn__mobil{
+        margin-left: -20%;
+    }
+
+    .navbar__ctn--img{
+        img{
+            height: 30px;
+            height: 30px;
+        }
+    }
+
+    .nav__left--top {
+        text-align: left;
+        padding: 0;
+
+        ul {
+            list-style: none;
+
+            li {
+                margin: 6%;
+            }
+        }
+    }
+
+    .navbar__mobile--search{
+        margin-left: 40%;
+        display: inline;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .navbar__mobile--bell{
+        display: inline;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .navbar__mobile--planta{
+        display: inline;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+}
+
+@media (max-width: 320px) {
+    .navbar__mobile--search{
+        margin-left: 25%;
+        display: inline;
+
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .navbar__mobile--bell{
+        display: inline;
+
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .navbar__mobile--planta{
+        display: inline;
+
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+
 }
