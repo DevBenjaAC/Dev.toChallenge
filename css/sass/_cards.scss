@@ -1,0 +1,105 @@
+/* part of the main*/
+.container__One{
+  
+  
+  
+}
+.card__td{
+
+  
+}
+
+
+
+.card-img-top{
+    
+ border-radius: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.container__imgUser {
+  border-radius: 100%;
+  max-width: 40px;
+  max-height: 40px;
+  cursor: pointer;
+
+}
+
+.container__two--title {
+  margin-left: 25px;
+  padding-top: 10px;
+}
+.container__titleSmall{
+font-family:sans-serif ;
+text-decoration: none;
+color: #000;
+}
+
+.container__crayons-tag {
+  padding-left: 20px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  
+  :hover{
+    color: #000ff0
+  }
+
+}
+
+.container__imgtext {
+  display: flex;
+}
+.container__imgtext--name {
+  height: 2px;
+  padding-left: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+  
+.icons {
+  padding-top: 10px;
+}
+
+.btn {
+  text-align: right;
+  font-size: 10px;
+}
+.reactions {
+  display: inline;
+  font-size: 13px;
+  font-family:sans-serif;
+  img {
+    display: inline;
+  }
+
+  p {
+    display: inline;
+  }
+  :hover{
+    color:#000ff0
+  }
+  cursor: pointer;
+
+}
+
+.comments {
+  display: inline;
+  font-size: 13px;
+  font-family: sans-serif;
+  img {
+    display: inline;
+  }
+  p {
+    display: inline;
+  }
+  :hover{
+    color:#000ff0;
+  }
+  cursor: pointer;
+  }
+
+
+
+/*Segunda Card*/
