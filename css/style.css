@@ -344,6 +344,137 @@
 }
 
 
+/* part of the main*/
+.card-img-top {
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.container__imgUser {
+  border-radius: 100%;
+  max-width: 40px;
+  max-height: 40px;
+  cursor: pointer;
+}
+
+.container__two--title {
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.container__titleSmall {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+.container__crayons-tag {
+  padding-left: 20px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container__crayons-tag :hover {
+  color: #000ff0;
+}
+
+.container__imgtext {
+  display: flex;
+}
+
+.container__imgtext--name {
+  height: 2px;
+  padding-left: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.icons {
+  padding-top: 10px;
+}
+
+.btn {
+  text-align: right;
+  font-size: 10px;
+}
+
+.reactions {
+  display: inline;
+  font-size: 13px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.reactions img {
+  display: inline;
+}
+.reactions p {
+  display: inline;
+}
+.reactions :hover {
+  color: #000ff0;
+}
+
+.comments {
+  display: inline;
+  font-size: 13px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.comments img {
+  display: inline;
+}
+.comments p {
+  display: inline;
+}
+.comments :hover {
+  color: #000ff0;
+}
+
+/*Segunda Card*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar {
+  height: 50px;
+  background-color: white;
+}
+
+.navbar__ctn--img {
+  width: 50px;
+  height: 40px;
+}
+
+.navbar__ctn--search input {
+  width: 50%;
+}
+
+.navbar__ctn--btn {
+  text-align: end;
+}
+.navbar__ctn--btn button {
+  border-color: rgb(64, 76, 220);
+  color: rgb(64, 76, 220);
+}
+.navbar__ctn--btn button:hover {
+  background-color: rgb(64, 76, 220);
+  color: white;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+.navbar__ctn--bell {
+  text-align: center;
+}
+
+.navbar__ctn--user img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
+
+
 @media (max-width: 480px) {
   .aside__left {
     display: none;
@@ -475,3 +606,4 @@
 }
 
 /*Segunda Card*//*# sourceMappingURL=style.css.map */
+
