@@ -10,7 +10,7 @@
   height: 40px;
 }
 .navbar .navbar__ctn--input {
-  width: 40%;
+  width: 600px;
 }
 .navbar .navbar__ctn--input input {
   width: 40%;
@@ -22,9 +22,13 @@
 
 .ctn--listCTN-button {
   text-align: center;
-  font-size: 10px;
+  font-size: 7px;
+  border: solid;
 }
 .ctn--listCTN-button button {
+  min-width: 100px;
+  max-height: 38px;
+  font-size: 12px;
   border-color: rgb(59, 73, 223);
   color: rgb(59, 73, 223);
 }
@@ -41,6 +45,124 @@
   text-align: left;
 }
 
+.mobile-menu {
+  display: none;
+}
+
+.navbar__mobile--search {
+  display: none;
+}
+
+.navbar__mobile--bell {
+  display: none;
+}
+
+.navbar__mobile--planta {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar__mobile--search {
+    margin-left: 40%;
+    display: inline;
+  }
+  .navbar__mobile--search img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--bell {
+    display: inline;
+  }
+  .navbar__mobile--bell img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--planta {
+    display: inline;
+  }
+  .navbar__mobile--planta img {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .navbar {
+    text-align: left;
+  }
+  .navbar .ctn-fluid {
+    justify-content: flex-start;
+  }
+  .navbar .navbar__ctm--movil {
+    display: contents;
+    border: solid black;
+  }
+  .desplegable-card {
+    max-width: 250px;
+  }
+  .btn__mobil {
+    margin-left: -20%;
+  }
+  .navbar__ctn--img img {
+    height: 30px;
+    height: 30px;
+  }
+  .nav__left--top {
+    text-align: left;
+    padding: 0;
+  }
+  .nav__left--top ul {
+    list-style: none;
+  }
+  .nav__left--top ul li {
+    margin: 6%;
+  }
+  .navbar__mobile--search {
+    margin-left: 40%;
+    display: inline;
+  }
+  .navbar__mobile--search img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--bell {
+    display: inline;
+  }
+  .navbar__mobile--bell img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--planta {
+    display: inline;
+  }
+  .navbar__mobile--planta img {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar__mobile--search {
+    margin-left: 25%;
+    display: inline;
+  }
+  .navbar__mobile--search img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--bell {
+    display: inline;
+  }
+  .navbar__mobile--bell img {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar__mobile--planta {
+    display: inline;
+  }
+  .navbar__mobile--planta img {
+    height: 20px;
+    width: 20px;
+  }
+}
 
 .navbar__ctn--user img {
   height: 35px;
@@ -106,14 +228,13 @@
 }
 
 /*Segunda Card*/
-/*# sourceMappingURL=style.css.map */
-=======
 .main {
   background-color: rgb(245, 245, 245);
 }
 
 .aside__left {
   padding: 0;
+  max-width: 35%;
   border: solid;
 }
 
@@ -150,6 +271,15 @@
 .left--menu {
   text-decoration: none;
   color: black;
+}
+
+.left--li {
+  height: 30px;
+  width: 250px;
+}
+.left--li:hover {
+  background-color: rgba(59, 73, 223, 0.397);
+  border-radius: 5px;
 }
 
 .container-logs {
@@ -208,5 +338,11 @@
   text-decoration: none;
   font-weight: bolder;
   color: blue;
+}
+
+@media (max-width: 480px) {
+  .aside__left {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
 
