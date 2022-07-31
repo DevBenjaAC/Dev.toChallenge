@@ -1,8 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 11px;
+    border-radius: 100%;
+    
+}
+
 .contenedor {
     background-color: #E5E5E5;
     text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    font-stretch: expanded;
+    font-family: sans-serif;
   }
+
