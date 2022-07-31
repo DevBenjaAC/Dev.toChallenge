@@ -1,3 +1,12 @@
+@use "./sass/navbar";
+@use "./sass/asideLeft";
+@use "./sass/postCard";
+@use "./sass/footer";
+
+
+@use "./sass/asideRight";
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -96,9 +105,5 @@ padding-top: 10px;
 
 /*Segunda Card*/
 
-@use "./sass/navbar";
-@use "./sass/asideLeft";
-@use "./sass/postCard";
-@use "./sass/footer";
 
 
