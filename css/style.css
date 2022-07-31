@@ -143,6 +143,93 @@
   color: blue;
 }
 
+/* part of the main*/
+.card-img-top {
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.container__imgUser {
+  border-radius: 100%;
+  max-width: 40px;
+  max-height: 40px;
+  cursor: pointer;
+}
+
+.container__two--title {
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.container__titleSmall {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+.container__crayons-tag {
+  padding-left: 20px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container__crayons-tag :hover {
+  color: #000ff0;
+}
+
+.container__imgtext {
+  display: flex;
+}
+
+.container__imgtext--name {
+  height: 2px;
+  padding-left: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.icons {
+  padding-top: 10px;
+}
+
+.btn {
+  text-align: right;
+  font-size: 10px;
+}
+
+.reactions {
+  display: inline;
+  font-size: 13px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.reactions img {
+  display: inline;
+}
+.reactions p {
+  display: inline;
+}
+.reactions :hover {
+  color: #000ff0;
+}
+
+.comments {
+  display: inline;
+  font-size: 13px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.comments img {
+  display: inline;
+}
+.comments p {
+  display: inline;
+}
+.comments :hover {
+  color: #000ff0;
+}
+
+/*Segunda Card*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -184,63 +271,4 @@
   height: 35px;
   width: 35px;
   border-radius: 50%;
-}
-
-/* part of the main*/
-.container__imgUser {
-  border-radius: 100%;
-  max-width: 40px;
-  max-height: 40px;
-}
-
-.container__two--title {
-  margin-left: 25px;
-  padding-top: 10px;
-}
-
-.container__crayons-tag {
-  padding-left: 20px;
-}
-
-.container__imgtext {
-  display: flex;
-}
-
-.container__imgtext--name {
-  height: 2px;
-  padding-left: 5px;
-  font-weight: bold;
-}
-
-.icons {
-  padding-top: 10px;
-}
-
-.btn {
-  text-align: right;
-  font-size: 10px;
-}
-
-.reactions {
-  display: inline;
-  font-size: 10px;
-}
-.reactions img {
-  display: inline;
-}
-.reactions p {
-  display: inline;
-}
-
-.comments {
-  display: inline;
-  font-size: 10px;
-}
-.comments img {
-  display: inline;
-}
-.comments p {
-  display: inline;
-}
-
-/*Segunda Card*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
