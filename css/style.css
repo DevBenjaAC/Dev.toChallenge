@@ -45,7 +45,6 @@
   text-align: left;
 }
 
-
 .mobile-menu {
   display: none;
 }
@@ -230,6 +229,7 @@
 
 /*Segunda Card*/
 
+
 .main {
   background-color: rgb(245, 245, 245);
 }
@@ -342,6 +342,27 @@
   color: blue;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 11px;
+}
+
+.folder {
+  background-color: #E5E5E5;
+}
+
+.contenedor {
+  text-align: center;
+  justify-content: center;
+  background-color: #E5E5E5;
+  align-items: center;
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contenedor__footer--bold {
+  font-size: 15px;
+
 .aside {
   width: 300px;
   font-size: 18px;
@@ -363,6 +384,7 @@
 
 .aside__section {
   width: auto;
+
 }
 
 * {
@@ -407,6 +429,67 @@
   width: 35px;
   border-radius: 50%;
 }
+
+
+/* part of the main*/
+.container__imgUser {
+  border-radius: 100%;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.container__two--title {
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.container__crayons-tag {
+  padding-left: 20px;
+}
+
+.container__imgtext {
+  display: flex;
+}
+
+.container__imgtext--name {
+  height: 2px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.icons {
+  padding-top: 10px;
+}
+
+.btn {
+  text-align: right;
+  font-size: 10px;
+}
+
+.reactions {
+  display: inline;
+  font-size: 10px;
+}
+.reactions img {
+  display: inline;
+}
+.reactions p {
+  display: inline;
+}
+
+.comments {
+  display: inline;
+  font-size: 10px;
+}
+.comments img {
+  display: inline;
+}
+.comments p {
+  display: inline;
+}
+
+/*Segunda Card*//*# sourceMappingURL=style.css.map */
+
 
 /* part of the main*/
 .container__imgUser {
@@ -470,3 +553,4 @@
     display: none;
   }
 }
+
