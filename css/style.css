@@ -45,7 +45,6 @@
   text-align: left;
 }
 
-
 .mobile-menu {
   display: none;
 }
@@ -164,73 +163,6 @@
     width: 20px;
   }
 }
-
-.navbar__ctn--user img {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
-
-/* part of the main*/
-.container__imgUser {
-  border-radius: 100%;
-  max-width: 40px;
-  max-height: 40px;
-}
-
-.container__two--title {
-  margin-left: 25px;
-  padding-top: 10px;
-}
-
-.container__crayons-tag {
-  padding-left: 20px;
-}
-
-.container__imgtext {
-  display: flex;
-}
-
-.container__imgtext--name {
-  height: 2px;
-  padding-left: 5px;
-  font-weight: bold;
-}
-
-.icons {
-  padding-top: 10px;
-}
-
-.btn {
-  text-align: right;
-  font-size: 10px;
-}
-
-.reactions {
-  display: inline;
-  font-size: 10px;
-}
-.reactions img {
-  display: inline;
-}
-.reactions p {
-  display: inline;
-}
-
-.comments {
-  display: inline;
-  font-size: 10px;
-}
-.comments img {
-  display: inline;
-}
-.comments p {
-  display: inline;
-}
-
-/*Segunda Card*/
-
-
 .main {
   background-color: rgb(245, 245, 245);
 }
@@ -343,8 +275,11 @@
   color: blue;
 }
 
-
-/* part of the main*/
+@media (max-width: 480px) {
+  .aside__left {
+    display: none;
+  }
+}
 .card-img-top {
   border-radius: 10px;
   padding-bottom: 10px;
@@ -430,58 +365,15 @@
   color: #000ff0;
 }
 
-/*Segunda Card*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.navbar {
-  height: 50px;
-  background-color: white;
-}
-
-.navbar__ctn--img {
-  width: 50px;
-  height: 40px;
-}
-
-.navbar__ctn--search input {
-  width: 50%;
-}
-
-.navbar__ctn--btn {
-  text-align: end;
-}
-.navbar__ctn--btn button {
-  border-color: rgb(64, 76, 220);
-  color: rgb(64, 76, 220);
-}
-.navbar__ctn--btn button:hover {
-  background-color: rgb(64, 76, 220);
-  color: white;
-  -webkit-text-decoration: underline white;
-          text-decoration: underline white;
-}
-
-.navbar__ctn--bell {
-  text-align: center;
-}
-
-.navbar__ctn--user img {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}/*# sourceMappingURL=style.css.map */
-
-
-@media (max-width: 480px) {
-  .aside__left {
-    display: none;
+@media (max-width: 320px) {
+  .container__imgtext--name {
+    height: 1px;
+    padding-left: 4px;
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
   }
 }
-/*# sourceMappingURL=style.css.map */
-
 .aside {
   width: 300px;
   font-size: 18px;
@@ -505,105 +397,5 @@
   width: auto;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.navbar {
-  height: 50px;
-  background-color: white;
-}
-
-.navbar__ctn--img {
-  width: 50px;
-  height: 40px;
-}
-
-.navbar__ctn--search input {
-  width: 50%;
-}
-
-.navbar__ctn--btn {
-  text-align: end;
-}
-.navbar__ctn--btn button {
-  border-color: rgb(64, 76, 220);
-  color: rgb(64, 76, 220);
-}
-.navbar__ctn--btn button:hover {
-  background-color: rgb(64, 76, 220);
-  color: white;
-  -webkit-text-decoration: underline white;
-          text-decoration: underline white;
-}
-
-.navbar__ctn--bell {
-  text-align: center;
-}
-
-.navbar__ctn--user img {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
-
-/* part of the main*/
-.container__imgUser {
-  border-radius: 100%;
-  max-width: 40px;
-  max-height: 40px;
-}
-
-.container__two--title {
-  margin-left: 25px;
-  padding-top: 10px;
-}
-
-.container__crayons-tag {
-  padding-left: 20px;
-}
-
-.container__imgtext {
-  display: flex;
-}
-
-.container__imgtext--name {
-  height: 2px;
-  padding-left: 5px;
-  font-weight: bold;
-}
-
-.icons {
-  padding-top: 10px;
-}
-
-.btn {
-  text-align: right;
-  font-size: 10px;
-}
-
-.reactions {
-  display: inline;
-  font-size: 10px;
-}
-.reactions img {
-  display: inline;
-}
-.reactions p {
-  display: inline;
-}
-
-.comments {
-  display: inline;
-  font-size: 10px;
-}
-.comments img {
-  display: inline;
-}
-.comments p {
-  display: inline;
-}
-
-/*Segunda Card*//*# sourceMappingURL=style.css.map */
-
+/*@use "./sass/postCard";
+@use "./sass/postCard";*//*# sourceMappingURL=style.css.map */
