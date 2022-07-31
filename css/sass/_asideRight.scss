@@ -16,3 +16,15 @@
 .aside__section{
   width: auto;
 }
+
+@media (max-width: 1024px) {
+  .aside{
+    width:200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aside{
+    display: none;
+  }
+}
