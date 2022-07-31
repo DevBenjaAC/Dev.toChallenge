@@ -1,3 +1,4 @@
+/* navbar */
 .navbar {
   background-color: white;
   padding-left: 16%;
@@ -23,7 +24,6 @@
 .ctn--listCTN-button {
   text-align: center;
   font-size: 7px;
-  border: solid;
 }
 .ctn--listCTN-button button {
   min-width: 100px;
@@ -94,7 +94,6 @@
   }
   .navbar .navbar__ctm--movil {
     display: contents;
-    border: solid black;
   }
   .desplegable-card {
     max-width: 250px;
@@ -144,25 +143,23 @@
     margin-left: 25%;
     display: inline;
   }
-  .navbar__mobile--search img {
-    height: 20px;
-    width: 20px;
-  }
   .navbar__mobile--bell {
     display: inline;
-  }
-  .navbar__mobile--bell img {
-    height: 20px;
-    width: 20px;
   }
   .navbar__mobile--planta {
     display: inline;
   }
+
   .navbar__mobile--planta img {
     height: 20px;
     width: 20px;
   }
 }
+
+}
+/* navbar */
+/* aside left */
+
 .main {
   background-color: rgb(245, 245, 245);
 }
@@ -280,6 +277,10 @@
     display: none;
   }
 }
+
+/* aside left */
+/* part of the main*/
+
 .card-img-top {
   border-radius: 10px;
   padding-bottom: 10px;
@@ -374,6 +375,9 @@
     cursor: pointer;
   }
 }
+
+/*Segunda Card*/
+
 .aside {
   width: 300px;
   font-size: 18px;
@@ -397,5 +401,14 @@
   width: auto;
 }
 
-/*@use "./sass/postCard";
-@use "./sass/postCard";*//*# sourceMappingURL=style.css.map */
+@media (max-width: 1024px) {
+  .aside {
+    width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .aside {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
+
