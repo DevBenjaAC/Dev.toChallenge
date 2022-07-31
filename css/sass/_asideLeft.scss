@@ -4,6 +4,7 @@
 
 .aside__left {
     padding: 0;
+    max-width: 35%;
     border: solid;
 }
 
@@ -47,6 +48,15 @@
     color: black;
 }
 
+.left--li{
+    height: 30px;
+    width: 250px;
+    &:hover{
+        background-color: rgba(59, 73, 223, 0.397);
+        border-radius: 5px;
+    }
+}
+
 .container-logs{
     padding-left: 8%;
     margin-top: 15%;
@@ -63,7 +73,6 @@
 }
 
 .container-left-card{
-
     .container-left-card1{
         margin-top: 25%;
         width: 15rem;
@@ -110,6 +119,11 @@
             font-weight: bolder;
             color: blue;
         }
+    }
+}
 
+@media (max-width: 480px) {
+    .aside__left{
+        display: none;
     }
 }
