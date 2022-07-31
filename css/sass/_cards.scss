@@ -42,9 +42,9 @@
   text-align: right;
   font-size: 10px;
 }
-.reactions{
+.reactions {
   display: inline;
-  font-size: 13px;  
+  font-size: 13px;
   font-family: sans-serif;
   img {
     display: inline;
@@ -57,7 +57,7 @@
   }
   cursor: pointer;
 }
-.comments {
+.container__three--comment{
   display: inline;
   font-size: 13px;
   font-family: sans-serif;
@@ -81,5 +81,33 @@
     font-size: 13px;
     cursor: pointer;
   }
+  .container__three--comment{
+    display: inline;
+    font-size: 13px;
+    font-family: sans-serif;
+    img {
+      display: inline;
+    }
+    p {
+      display: none;
+    }
+    :hover {
+      color: #000ff0;
+    }
+  }
+  .reactions {
+    display: inline;
+    font-size: 13px;
+    font-family: sans-serif;
+    img {
+      display: inline;
+    }
+    p {
+      display: none;
+    }
+    :hover {
+      color: #000ff0;
+    }
+    cursor: pointer;
+  }
 }
-
