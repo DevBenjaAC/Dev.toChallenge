@@ -430,9 +430,9 @@
   color: #000ff0;
 }
 
-.aside {
+.asideRight {
   width: 200px;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .aside__div--img {
@@ -442,7 +442,7 @@
 
 .aside__div--title {
   text-align: start;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .aside__content {
@@ -453,13 +453,21 @@
   width: auto;
 }
 
+h3 {
+  font-size: 18px;
+}
+
+.Create {
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
-  .aside {
-    width: 150px;
+  .asideRight {
+    width: 200px;
   }
 }
 @media (max-width: 768px) {
-  .aside {
+  .asideRight {
     display: none;
   }
 }
