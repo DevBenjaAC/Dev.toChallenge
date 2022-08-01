@@ -44,6 +44,11 @@
 .ctn--listCTN-profile {
   text-align: left;
 }
+.ctn--listCTN-profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
 
 .mobile-menu {
   display: none;
@@ -57,10 +62,19 @@
   display: none;
 }
 
-.navbar__mobile--planta {
+.navbar__mobile--Octocat {
   display: none;
 }
 
+@media (max-width: 1024px) {
+  .ctn--listCTN-button {
+    margin-left: -15%;
+  }
+  .ctn--listCTN-bell {
+    text-align: right;
+    margin-left: 15%;
+  }
+}
 @media (max-width: 768px) {
   .navbar__mobile--search {
     margin-left: 40%;
@@ -77,12 +91,13 @@
     height: 20px;
     width: 20px;
   }
-  .navbar__mobile--planta {
+  .navbar__mobile--Octocat {
     display: inline;
   }
-  .navbar__mobile--planta img {
+  .navbar__mobile--Octocat img {
     height: 20px;
     width: 20px;
+    border-radius: 50%;
   }
 }
 @media (max-width: 480px) {
@@ -130,12 +145,13 @@
     height: 20px;
     width: 20px;
   }
-  .navbar__mobile--planta {
+  .navbar__mobile--Octocat {
     display: inline;
   }
-  .navbar__mobile--planta img {
+  .navbar__mobile--Octocat img {
     height: 20px;
     width: 20px;
+    border-radius: 50%;
   }
 }
 @media (max-width: 320px) {
@@ -146,8 +162,11 @@
   .navbar__mobile--bell {
     display: inline;
   }
-  .navbar__mobile--planta {
+  .navbar__mobile--Octocat {
     display: inline;
+  }
+  .navbar__mobile--Octocat img {
+    border-radius: 50%;
   }
 }
 /* navbar */
@@ -159,7 +178,6 @@
 .aside__left {
   padding: 0;
   max-width: 35%;
-  border: solid;
 }
 
 .left--top {
@@ -204,6 +222,7 @@
 .left--li:hover {
   background-color: rgba(59, 73, 223, 0.397);
   border-radius: 5px;
+  text-decoration: underline;
 }
 
 .container-logs {
@@ -270,6 +289,10 @@
   }
 }
 /* aside left */
+.cards__general {
+  background-color: white;
+}
+
 .card-img-top {
   border-radius: 10px;
   padding-bottom: 10px;
@@ -355,6 +378,11 @@
   color: #000ff0;
 }
 
+@media (max-width: 768px) {
+  .cards__general {
+    width: 450px;
+  }
+}
 @media (max-width: 320px) {
   .container__imgtext--name {
     height: 1px;
@@ -412,10 +440,6 @@
   color: #000ff0;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .footer--background {
   background-color: #e5e5e5;
 }
@@ -438,6 +462,22 @@
 .aside {
   width: 300px;
   font-size: 18px;
+
+.asideRight {
+  width: 200px;
+  font-size: 13px;
+}
+.asideRight a:link, .asideRight a:visited, .asideRight a:hover, .asideRight a:active {
+  color: #000000;
+  text-decoration: none;
+}
+.asideRight a:hover {
+  color: #000ff0;
+}
+
+.card {
+  border: none;
+
 }
 
 .aside__div--img {
@@ -447,7 +487,7 @@
 
 .aside__div--title {
   text-align: start;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .aside__content {
@@ -458,13 +498,116 @@
   width: auto;
 }
 
+h3 {
+  font-size: 18px;
+}
+
+.Create {
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
-  .aside {
+  .asideRight {
     width: 200px;
+    padding: 10px;
   }
 }
 @media (max-width: 768px) {
-  .aside {
+  .asideRight {
     display: none;
+  }
+}
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main {
+  background-color: rgb(245, 245, 245);
+}
+
+.aside1 {
+  background-color: white;
+  align-items: center;
+  width: 100px;
+}
+
+a:link, a:visited, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000ff0;
+}
+
+.main__ctn {
+  margin-left: 5px;
+  background-color: rgb(245, 245, 245);
+  width: 700px;
+}
+
+.main__img {
+  width: 650px;
+  margin: 5px;
+}
+
+.aside2 {
+  background-color: white;
+  width: 145px;
+  margin-left: 5px;
+}
+
+@media (min-width: 319px) {
+  .aside1 {
+    display: none;
+  }
+  .aside2 {
+    display: none;
+  }
+  .main__ctn {
+    width: 315px;
+    margin: 0;
+  }
+  .main__img {
+    width: 290px;
+  }
+}
+@media (min-width: 768px) {
+  .aside1 {
+    display: none;
+  }
+  .aside2 {
+    display: none;
+  }
+  .main__ctn {
+    width: 700px;
+    margin: 0;
+  }
+  .main__img {
+    width: 650px;
+  }
+}
+@media (min-width: 1024px) {
+  .aside1 {
+    display: block;
+  }
+  .aside2 {
+    margin-left: 10px;
+    display: block;
+    text-align: start;
+    color: black;
+    text-decoration: none;
+    width: 250px;
+  }
+  .main__ctn {
+    width: 700px;
+    margin: 0;
+  }
+  .main__img {
+    width: 680px;
+  }
+  .btn-primary--aside2 {
+    width: 100px;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */

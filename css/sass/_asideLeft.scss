@@ -6,7 +6,6 @@
 .aside__left {
     padding: 0;
     max-width: 35%;
-    border: solid;
 }
 
 .left--top {
@@ -55,6 +54,7 @@
     &:hover{
         background-color: rgba(59, 73, 223, 0.397);
         border-radius: 5px;
+        text-decoration: underline;
     }
 }
 
