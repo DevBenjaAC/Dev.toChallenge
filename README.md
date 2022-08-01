@@ -1,9 +1,12 @@
 # Dev.toChallenge
-Challenge In Kodemia, 
-# Rafael Villaseñor & Benjamin Alvarado & Fernando Toledo & Chris Corzo 👦🏻👦🏻👦🏻👦🏻
+# Challenge In Kodemia. 
+### Rafael Villaseñor   👦🏻
+### Benjamin Alvarado 👦🏻
+### Fernando Toledo 👦🏻
+### Chris Corzo 👦🏻
 
-### Developers Web Full Stack JS
-### Challenge Kodemia ==
+### Developers Web Full Stack JS in training
+### Challenge Kodemia
 
 1.- El layout a desarrollar serán las siguientes vistas:
 1.1.- Vista principal del sitio (una vez logueado)
