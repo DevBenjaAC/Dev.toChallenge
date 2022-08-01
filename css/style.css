@@ -434,6 +434,17 @@
   width: 200px;
   font-size: 13px;
 }
+.asideRight a:link, .asideRight a:visited, .asideRight a:hover, .asideRight a:active {
+  color: #000000;
+  text-decoration: none;
+}
+.asideRight a:hover {
+  color: #000ff0;
+}
+
+.card {
+  border: none;
+}
 
 .aside__div--img {
   width: auto;
@@ -464,6 +475,7 @@ h3 {
 @media (max-width: 1024px) {
   .asideRight {
     width: 200px;
+    padding: 10px;
   }
 }
 @media (max-width: 768px) {
