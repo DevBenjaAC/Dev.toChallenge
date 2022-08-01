@@ -1,3 +1,7 @@
+.cards__general{
+  background-color: white;
+}
+
 .card-img-top {
   border-radius: 10px;
   padding-bottom: 10px;
@@ -72,6 +76,12 @@
   }
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .cards__general{
+    width: 450px;
+  }
+}
+
 @media (max-width: 320px) {
   .container__imgtext--name {
     height: 1px;

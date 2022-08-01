@@ -222,6 +222,7 @@
 .left--li:hover {
   background-color: rgba(59, 73, 223, 0.397);
   border-radius: 5px;
+  text-decoration: underline;
 }
 
 .container-logs {
@@ -288,6 +289,10 @@
   }
 }
 /* aside left */
+.cards__general {
+  background-color: white;
+}
+
 .card-img-top {
   border-radius: 10px;
   padding-bottom: 10px;
@@ -373,6 +378,11 @@
   color: #000ff0;
 }
 
+@media (max-width: 768px) {
+  .cards__general {
+    width: 450px;
+  }
+}
 @media (max-width: 320px) {
   .container__imgtext--name {
     height: 1px;
