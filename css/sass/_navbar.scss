@@ -1,3 +1,5 @@
+/* navbar */
+
 .navbar{
     background-color: white;
     padding-left: 16%;
@@ -28,7 +30,6 @@
 .ctn--listCTN-button{
     text-align: center;
     font-size: 7px;
-    border: solid;
 
     button{
         min-width: 100px;
@@ -49,6 +50,12 @@
 
 .ctn--listCTN-profile{
     text-align: left;
+
+    img{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
 }
 
 .mobile-menu{
@@ -61,8 +68,19 @@
 .navbar__mobile--bell{
     display: none;
 }
-.navbar__mobile--planta{
+.navbar__mobile--Octocat{
     display: none;
+}
+
+@media (max-width: 1024px) {
+    .ctn--listCTN-button{
+        margin-left: -15%;
+    }
+
+    .ctn--listCTN-bell{
+        text-align: right;
+        margin-left: 15%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -83,11 +101,12 @@
             width: 20px;
         }
     }
-    .navbar__mobile--planta{
+    .navbar__mobile--Octocat{
         display: inline;
         img{
             height: 20px;
             width: 20px;
+            border-radius: 50%;
         }
     }
 
@@ -101,7 +120,6 @@
         }
         .navbar__ctm--movil{
             display: contents;
-            border: solid black;
         }
     }
 
@@ -141,6 +159,7 @@
             width: 20px;
         }
     }
+
     .navbar__mobile--bell{
         display: inline;
         img{
@@ -148,14 +167,15 @@
             width: 20px;
         }
     }
-    .navbar__mobile--planta{
+
+    .navbar__mobile--Octocat{
         display: inline;
         img{
             height: 20px;
             width: 20px;
+            border-radius: 50%;
         }
     }
-
 }
 
 @media (max-width: 320px) {
@@ -163,26 +183,17 @@
         margin-left: 25%;
         display: inline;
 
-        img{
-            height: 20px;
-            width: 20px;
-        }
     }
     .navbar__mobile--bell{
         display: inline;
-
-        img{
-            height: 20px;
-            width: 20px;
-        }
     }
-    .navbar__mobile--planta{
-        display: inline;
 
+    .navbar__mobile--Octocat{
+        display: inline;
         img{
-            height: 20px;
-            width: 20px;
+            border-radius: 50%;
         }
     }
 
 }
+/* navbar */
