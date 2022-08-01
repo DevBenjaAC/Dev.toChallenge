@@ -488,7 +488,7 @@ h3 {
 }
 
 .main {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
 }
 
 .aside1 {
@@ -497,9 +497,18 @@ h3 {
   width: 100px;
 }
 
+a:link, a:visited, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000ff0;
+}
+
 .main__ctn {
   margin-left: 5px;
-  background-color: white;
+  background-color: rgb(245, 245, 245);
   width: 700px;
 }
 
@@ -549,10 +558,12 @@ h3 {
     display: block;
   }
   .aside2 {
+    margin-left: 10px;
     display: block;
     text-align: start;
     color: black;
     text-decoration: none;
+    width: 250px;
   }
   .main__ctn {
     width: 700px;
