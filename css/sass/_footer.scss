@@ -1,19 +1,24 @@
 * {
   box-sizing: border-box;
-  padding: 14px;
-  margin: auto;
+}
+
+.footer--background {
+  background-color: #e5e5e5;
 }
 
 .container_footer {
   text-align: center;
+  line-height: 30px;
   align-content: center;
   size: 70%;
-  background-color: #e5e5e5;
   font-size: 14px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.contenedor__footer--bold {
-  font-size: 15px;
+.footer--anchors {
+  text-decoration: none;
+  color: #3b48bfe0;
+  font-weight: bold;
+
 }
