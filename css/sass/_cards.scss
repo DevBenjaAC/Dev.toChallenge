@@ -57,7 +57,7 @@
   }
   cursor: pointer;
 }
-.container__three--comment{
+.container__three--comment {
   display: inline;
   font-size: 13px;
   font-family: sans-serif;
@@ -72,7 +72,6 @@
   }
   cursor: pointer;
 }
-
 @media (max-width: 320px) {
   .container__imgtext--name {
     height: 1px;
@@ -81,7 +80,7 @@
     font-size: 13px;
     cursor: pointer;
   }
-  .container__three--comment{
+  .container__three--comment {
     display: inline;
     font-size: 13px;
     font-family: sans-serif;
@@ -110,4 +109,24 @@
     }
     cursor: pointer;
   }
+  .card-img-top {
+    border-radius: 5px;
+    margin: auto;
+
+  }
+  .container__titleSmall {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
 }
+.container__crayons-tag {
+  align-items: flex-start;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  :hover {
+    color: #000ff0;
+  }
+}
+
